@@ -1,0 +1,81 @@
+.slider-home {
+    width: 100%;
+    height: max-content;
+    background-color: #e5d7f1;
+    padding-top: .5rem;
+}
+
+.slider-home .slide_organizer {
+    display: flex;
+    align-items: flex-start;
+}
+.slider-home .slide_organizer > div.text {
+    width: 50%;
+  
+    margin: 3rem -10% 3rem 0;
+}
+.slider-home .slide_organizer div.text .content {
+    width: max-content;
+    padding: 1rem;
+
+}
+
+.slider-home .slide_organizer div.text h2 {
+    color: #47285c;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+.slider-home .slide_organizer div.text .content > p {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.slider-home .slide_organizer div.text .title {
+    background-image: linear-gradient(to right, #d5c0e7, transparent);
+}
+.slider-home .slide_organizer div.text .text-inside {
+    color: #47285c;
+    text-transform: uppercase;
+    padding: 1rem;
+    font-size: .9rem;
+}
+.slider-home .slide_organizer div.text .text-inside button {
+    outline: none;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    background-color: #1da0b5;
+    border-radius: 5px;
+    border-bottom: 2px solid #0d6574;
+    /* padding: .5rem 0 .5rem .5rem; */
+    padding: 0;
+    padding-left: 1rem;
+    overflow: hidden;
+    width: max-content;
+}
+.slider-home .slide_organizer div.text .text-inside button span {
+    margin-left: 1rem;
+    height: 200%;
+    margin-top: -100%;
+    padding: 1rem .5rem;
+    background-color: #188a9d;
+}
+.slider-home .slide_organizer div.text .text-inside button span i {
+    padding: .7rem .5rem;
+}
+
+.slider-home .slide_organizer div.image {
+    width: 60%;
+    height: 370px;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: bottom;
+}
+

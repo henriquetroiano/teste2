@@ -1,0 +1,70 @@
+nav.navbar {
+    flex-direction: column;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+nav.navbar .top-contact {
+    background-color: #47285c;
+    color: #d6d6d6;
+    padding: .7rem 7px .7rem 3rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-left: 65%;
+    border-radius: 0 0 0 6px;
+}
+nav.navbar .top-contact > a {
+    color: #d6d6d6;
+    font-size: .8rem;
+    text-decoration: none;
+    margin-right: 15px;
+}
+nav.navbar .top-contact > a i.whatsapp {
+    padding: 8px;
+    border-radius: 50%;
+    background-color: #00d954;
+    color: #fff;
+}
+
+nav.navbar .top-contact > a.instagram {
+    margin-left: 30px;
+}
+
+nav.navbar li.nav-item a {
+    font-size: .8rem;
+}
+nav.navbar > div.container {
+    height: 70px;
+}
+nav.navbar > div.container a.navbar-brand {
+    height: calc(100% + 2.2rem);
+    margin-top: -2.2rem;
+    margin-right: 0;
+}
+nav.navbar > div.container a.navbar-brand img {
+    height: 100%;
+    width: auto;
+}
+nav.navbar > div.container > div#navbarResponsive {
+    height: 100%;
+}
+nav.navbar > div.container > div#navbarResponsive > ul {
+    height: 100%;
+    align-items: center;
+}
+nav.navbar > div.container > div#navbarResponsive > ul li {
+    height: 100%;
+    transition: .3s;
+    border: 2px solid transparent;
+}
+nav.navbar > div.container > div#navbarResponsive > ul li a {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+nav.navbar > div.container > div#navbarResponsive > ul li.active,
+nav.navbar > div.container > div#navbarResponsive > ul li:hover {
+    border-bottom: 2px solid #47285c;
+}
+

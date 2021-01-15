@@ -1,0 +1,11 @@
+@import "./modules/header.css";
+@import "./modules/footer.css";
+@import "./modules/home.css";
+
+
+
+html, body {
+    box-sizing: border-box;
+    font-size: 16px;
+    text-decoration: none;
+}
