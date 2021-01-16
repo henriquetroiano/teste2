@@ -240,3 +240,51 @@
 
 
 
+@media screen and (max-width: 1000px), (orientation: portrait) {
+   
+    .footer-section .content {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .footer-section .content .form-section {
+        margin-bottom: 15%;
+        min-width: unset;
+        width: 95%;
+        max-width: 565px;
+    }
+    .footer-section .content .form-section:before {
+        left: -20%;
+        width: 120vw;
+        height: calc(100% + 30%);
+    }
+    .footer-section .content .form-section form {
+        max-width: unset;
+    }
+    .footer-section .content .contact-section {
+        width: 100%;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .footer-section .content .contact-section:before {
+        display: none;
+    }
+    .footer-section .content .contact-section .social-networks {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-section .content .contact-section .contact {
+        width: 100%;
+        align-items: center;
+        margin-top: 1rem;
+    }
+    .footer-section .content .contact-section .contact a i {
+        margin-right: 5px;
+    }
+    .footer-section .content .contact-section .contact a.logo {
+        margin: 1rem 0;
+    }
+
+
+}
