@@ -1,10 +1,14 @@
 <nav class="navbar navbar-expand-lg navbar-light static-top">
     <div class="top-contact">
-        <a href="tel:551121075500"><i class="fas fa-phone"></i> 11 2105-5500</a>
-        <a href="https://api.whatsApp.com/send?phone=1121055500" target="_blank"><i class="fab fa-whatsapp whatsapp"></i> Atendimento via Whatsapp</a>
-        <a href="mailto:comercial@contiplan.com.br"><i class="fas fa-envelope"></i> comercial@contiplan.com.br</a>
-        <a href="instagram.com" target="_blank"><i class="fab fa-instagram instagram"></i></a>
-        <a href="facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+        <div class="content container">
+            <div class="group">
+                <a href="tel:551121075500"><i class="fas fa-phone"></i> 11 2105-5500</a>
+                <a href="https://api.whatsApp.com/send?phone=1121055500" target="_blank"><i class="fab fa-whatsapp whatsapp"></i> Atendimento via Whatsapp</a>
+                <a href="mailto:comercial@contiplan.com.br"><i class="fas fa-envelope"></i> comercial@contiplan.com.br</a>
+                <a href="instagram.com" target="_blank"><i class="fab fa-instagram instagram"></i></a>
+                <a href="facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+            </div>
+        </div>
     </div>
   <div class="container">
     <a class="navbar-brand" href="#">
@@ -15,7 +19,7 @@
         </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
             
-        <ul class="navbar-nav mr-auto">
+        <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
                 <a class="nav-link" href="#">QUEM SOMOS</a>
             </li>

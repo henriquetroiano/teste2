@@ -132,6 +132,112 @@
     font-size: 1rem;
 }
 
+@media screen and (max-width: 1000px), (orientation: portrait) {
+    .slider-home .slide_organizer {
+        flex-direction: column;
+    }
+    .slider-home .slide_organizer > div.text {
+        margin: 0;
+        width: 100%;
+    }
+    .slider-home .slide_organizer div.image {
+        height: 205px;
+        width: 100%;
+    }
+    .slider-home .slide_organizer div.text h2 {
+        font-size: 1.5rem;
+    }
+    .slider-home .slide_organizer div.text .content > p {
+        font-size: 1.2rem;
+    }
+    .slider-home .slide_organizer div.text .text-inside button {
+        outline: none;
+        border: none;
+        background: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #fff;
+        background-color: #1da0b5;
+        border-radius: 5px;
+        border-bottom: 2px solid #0d6574;
+        padding: 0;
+        padding-right: 1.4rem;
+        overflow: hidden;
+        width: 100%;
+        height: 2.5rem;
+        font-size: .8rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .slider-home .slide_organizer div.text .text-inside button span {
+        padding: 1rem .7rem;
+        background-color: #188a9d;
+        position: absolute;
+        right: 0;
+        margin-top: 0;
+        height: unset;
+    }
+    .section-home .content {
+        flex-direction: column;
+        align-items: center;
+        height: max-content;
+        padding-bottom: 2rem;
+    }
+    .section-home .content .image {
+        width: 100%;
+    }
+    .section-home .content .text {
+        width: 100%;
+        margin-left: 0;
+    }
+    .footer-section .content {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .footer-section .content .form-section {
+        margin-bottom: 15%;
+        min-width: unset;
+        width: 95%;
+        max-width: 565px;
+    }
+    .footer-section .content .form-section:before {
+        left: -20%;
+        width: 120vw;
+        height: calc(100% + 30%);
+    }
+    .footer-section .content .form-section form {
+        max-width: unset;
+    }
+    .footer-section .content .contact-section {
+        width: 100%;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .footer-section .content .contact-section:before {
+        display: none;
+    }
+    .footer-section .content .contact-section .social-networks {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-section .content .contact-section .contact {
+        width: 100%;
+        align-items: center;
+        margin-top: 1rem;
+    }
+    .footer-section .content .contact-section .contact a i {
+        margin-right: 5px;
+    }
+    .footer-section .content .contact-section .contact a.logo {
+        margin: 1rem 0;
+    }
+
+
+}
 
 
 

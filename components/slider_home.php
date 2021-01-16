@@ -4,6 +4,7 @@
             <div class="splide__track">
                 <ul class="splide__list">
                     <li class="splide__slide">
+
                         <div class="slide_organizer">
                             <div class="text">
                                 <div class="title">
@@ -20,6 +21,8 @@
                                     </button>
                                 </div>
                             </div>
+
+                            <!-- Estou supondo que os dados deste slide virão do backend em forma de texto e imagens separados, e que a imagem é importante. Tomando isso como princípio vou deixar a imagem até no slide mobile. -->
                             <div class="image" style="background-image: url('./public/img/slide_pic.png')"></div>
                         </div>
                     </li>
