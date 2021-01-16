@@ -7,7 +7,7 @@
                 <a href="mailto:comercial@contiplan.com.br"><i class="fas fa-envelope"></i> comercial@contiplan.com.br</a>
                 <a href="https://api.whatsApp.com/send?phone=551121055500" target="_blank"><i class="fab fa-whatsapp whatsapp"></i> Atendimento via Whatsapp</a>
                 <a class="address" href="https://goo.gl/maps/xvZFxPhC1nN8Eqsq7" target="_blank"><i class="fas fa-map-marker-alt"></i><span>R. Francisco Hurtado, 431<br>São Paulo, SP</span></a>
-                <a href="./" class="logo"><img src="./public/img/logo_footer.png" alt="Logo Footer"></a>
+                <a href="{{ url('/') }}" class="logo"><img src="{{ asset('img/logo_footer.png') }}" alt="Logo Footer"></a>
             </div>
 
             <div class="social-networks">
@@ -16,12 +16,12 @@
                     <a href="instagram.com" target="_blank"><i class="fab fa-instagram instagram"></i></a>
                     <a href="facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
                 </div>
-                <a href="./" class="acessar">Acessar o Site</a>
+                <a href="{{ url('/') }}" class="acessar">Acessar o Site</a>
             </div>
 
         </div>
         <div class="form-section">
-            <form action="./submit/form" method="post" id="form">
+            <form action="{{ url('/submit/form') }}" method="post" id="form">
                 <p>Solicite um orçamento:</p>
                 <div class="input-group">
                     <div class="input-group-btn">

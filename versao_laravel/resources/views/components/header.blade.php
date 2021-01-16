@@ -11,8 +11,8 @@
         </div>
     </div>
   <div class="container">
-    <a class="navbar-brand" href="#">
-          <img src="./public/img/logo2.png" alt="header logo">
+    <a class="navbar-brand" href="{{ url('/') }}">
+          <img src="{{ asset('img/logo2.png') }}" alt="header logo">
         </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
