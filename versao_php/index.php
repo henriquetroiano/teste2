@@ -90,8 +90,8 @@
             type: "loop",
             perPage: 1,
             arrows: false,
-            // autoplay: true,
-            // interval: 3000
+            autoplay: true,
+            interval: 2500
         } ).mount();
     </script>
 </body>
